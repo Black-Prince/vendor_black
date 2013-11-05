@@ -1,0 +1,4 @@
+#!/system/bin/sh
+log -p i -t start "    BlackSRom - Google's Nexus experience on non-Nexus devices";
+
+
