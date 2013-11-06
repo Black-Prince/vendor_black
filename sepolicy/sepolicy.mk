@@ -4,7 +4,7 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    vendor/cm/sepolicy
+    vendor/black/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     file_contexts \
