@@ -3,8 +3,11 @@
 # inherit from CM
 #
 
-BOARD_SEPOLICY_DIRS := \
-    vendor/black/sepolicy
+BOARD_SEPOLICY_DIRS += \
+    vendor/cm/sepolicy
 
-BOARD_SEPOLICY_UNION := \
+BOARD_SEPOLICY_UNION += \
+    file_contexts \
+    seapp_contexts \
     mac_permissions.xml
+
