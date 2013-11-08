@@ -14,7 +14,7 @@ PRODUCT_PACKAGES += \
 	CMFileManager \
 	DashClock \
 	DSPManager \
-	Launcher3
+	Launcher3 \
 	Superuser \
 	su \
 	libcyanogen-dsp \
