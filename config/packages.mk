@@ -37,3 +37,7 @@ PRODUCT_PACKAGES += \
 	powertop \
 	lsof
 
+# CM Hardware Abstraction Framework
+PRODUCT_PACKAGES += \
+	org.cyanogenmod.hardware \
+	org.cyanogenmod.hardware.xml
